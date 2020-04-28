@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Apple.Web.Mvc", "AspNet.Apple.Web.Mvc\AspNet.Apple.Web.Mvc.csproj", "{DC59E3CD-200E-4501-9421-C853401B0720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet.Apple.Web.Mvc", "AspNet.Apple.Web.Mvc\AspNet.Apple.Web.Mvc.csproj", "{DC59E3CD-200E-4501-9421-C853401B0720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Apple.Web.Razor", "AspNet.Apple.Web.Razor\AspNet.Apple.Web.Razor.csproj", "{4F4820A6-AB41-42A4-A252-B584C613039E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC59E3CD-200E-4501-9421-C853401B0720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC59E3CD-200E-4501-9421-C853401B0720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC59E3CD-200E-4501-9421-C853401B0720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4820A6-AB41-42A4-A252-B584C613039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4820A6-AB41-42A4-A252-B584C613039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4820A6-AB41-42A4-A252-B584C613039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4820A6-AB41-42A4-A252-B584C613039E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
