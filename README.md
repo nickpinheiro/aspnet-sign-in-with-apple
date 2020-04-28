@@ -1,1 +1,1 @@
-# aspnet-sign-in-with-apple
+# Sign in with Apple on ASP.NET Core
