@@ -1,0 +1,17 @@
+﻿@model AspNet.Apple.Web.Mvc.Models.Apple.User
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Apple ID User</h1>
+
+<div>
+    UTC Time: @DateTime.Now<br />
+    Apple Id: @Html.DisplayTextFor(modelItem => Model.Id)<br />
+    @Html.DisplayTextFor(modelItem => Model.email)<br />
+    @Html.DisplayTextFor(modelItem => Model.name.firstName)<br />
+    @Html.DisplayTextFor(modelItem => Model.name.lastName)<br />
+    @Html.DisplayTextFor(modelItem => Model.name.firstName)&nbsp;@Html.DisplayTextFor(modelItem => Model.name.lastName)<br />
+</div>
+
