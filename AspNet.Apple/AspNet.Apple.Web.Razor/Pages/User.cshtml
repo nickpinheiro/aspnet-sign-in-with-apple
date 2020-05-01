@@ -1,0 +1,17 @@
+﻿@page
+@model AspNet.Apple.Web.Razor.Pages.UserModel
+@{
+    ViewData["Title"] = "User";
+}
+
+<h1>Apple ID User</h1>
+
+<div>
+    UTC Time: @DateTime.Now<br />
+    Apple Id: @Html.DisplayTextFor(modelItem => Model.AppleUser.Id)<br />
+    @Html.DisplayTextFor(modelItem => Model.AppleUser.email)<br />
+    @Html.DisplayTextFor(modelItem => Model.AppleUser.name.firstName)<br />
+    @Html.DisplayTextFor(modelItem => Model.AppleUser.name.lastName)<br />
+    @Html.DisplayTextFor(modelItem => Model.AppleUser.name.firstName)&nbsp;@Html.DisplayTextFor(modelItem => Model.AppleUser.name.lastName)<br />
+</div>
+
