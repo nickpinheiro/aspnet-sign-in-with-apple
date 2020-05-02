@@ -11,12 +11,18 @@ In this repository I have provided sample projects for implementing 'Sign in wit
 - Redirect the user back to your website using the Redirect Url
 
 ## Subscribe for Updates
-Subscribe for notifications of updates and new features:
+Subscribe for notifications of updates and new features:  
 https://www.iamnickpinheiro.com/#subscribe
 
 ## Resources
-Introducing Sign In with Apple (WWDC Video)
+Introducing Sign In with Apple (WWDC Video)  
 https://developer.apple.com/videos/play/wwdc2019/706
+
+Incorporating Sign in with Apple into Other Platforms  
+https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/incorporating_sign_in_with_apple_into_other_platforms
+
+Apple ID | Manage your Apple account  
+https://appleid.apple.com
 
 ## License
 Sign in with Apple using ASP.NET Core (MVC & Razor) is licensed under the MIT license. See the LICENSE file for more details.
