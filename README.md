@@ -13,7 +13,7 @@ In this repository I have provided sample projects for implementing 'Sign in wit
 
 ## Preview Images
 ![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-1.png "Sign In With Apple Button")
-![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-2.png "Sign In With Apple Consent")
+![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-2.png?v=1 "Sign In With Apple Consent")
 ![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-3.png "Sign In With Apple Response")
 
 ## Live Demo Sites on Microsoft Azure 
