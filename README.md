@@ -8,12 +8,13 @@ In this repository I have provided sample projects for implementing 'Sign in wit
 - Retrieve and display the Id, First Name, Last Name, Full Name and Email Address of the Apple ID user
 - Supports both Apple Face ID authentication and Apple ID username and password authentication
 - Supports Apple ID Multi-Factor Authentication (MFA)
-- Handle the initial Apple ID sign in and all subsequent sign ins as the data response is different with Apple ID
+- Handle the initial Apple ID sign in and all subsequent sign ins as the data response is slightly different
 - Redirect the user back to your website using the Redirect Url
 
 ## Preview Images
 ![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-1.png "Sign In With Apple Button")
-![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-2.png "Sign In With Apple Response")
+![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-2.png "Sign In With Apple Consent")
+![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-3.png "Sign In With Apple Response")
 
 ## Live Demo Sites on Microsoft Azure 
 ASP.NET Core MVC  
