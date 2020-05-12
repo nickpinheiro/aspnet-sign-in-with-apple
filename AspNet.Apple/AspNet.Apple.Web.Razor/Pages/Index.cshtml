@@ -10,7 +10,7 @@
 
     <div class="row" style="text-align: center; margin-top: 200px;">
         <div class="col">
-            <a class="btn btn-primary btn-block btn-responsive" style="background-color: #cccccc; border-color: #cccccc; color: #000000; font-size:1.5rem; padding: 20px;" href="https://appleid.apple.com/auth/authorize?client_id=com.modernappz.login&redirect_uri=https://aspnet-apple-web-razor.azurewebsites.net/user&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=123"><i class="fab fa-apple"></i>&nbsp;&nbsp;&nbsp;Sign in with Apple</a>
+            <a class="btn btn-primary btn-block btn-responsive" style="background-color: #cccccc; border-color: #cccccc; color: #000000; font-size:1.5rem; padding: 20px;" href="https://appleid.apple.com/auth/authorize?client_id=@Html.DisplayFor(model => model.AppSettings.ClientId)&redirect_uri=@Html.DisplayFor(model => model.AppSettings.RedirectUri)&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=123"><i class="fab fa-apple"></i>&nbsp;&nbsp;&nbsp;Sign in with Apple</a>
         </div>
     </div>
 </div>

@@ -21,8 +21,6 @@ namespace AspNet.Apple.Web.Razor.Pages
         {
             if (Request.Form.ContainsKey("code"))
             {
-                //Models.Apple.User appleUser = new Models.Apple.User();
-
                 // Decode the JWT Token to obtain user's email address to correlate with your app user.  The decoded JWT token will always include the email address.
                 JwtSecurityToken jwtSecurityToken = DecodeJwtToken(Request.Form["id_token"]);
 
