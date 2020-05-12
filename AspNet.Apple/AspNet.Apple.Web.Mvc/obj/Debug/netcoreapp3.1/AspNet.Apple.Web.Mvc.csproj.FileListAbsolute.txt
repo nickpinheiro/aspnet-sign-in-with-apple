@@ -398,4 +398,3 @@ C:\Users\nichpin\Source\Repos\aspnet-sign-in-with-apple\AspNet.Apple\AspNet.Appl
 C:\Users\nichpin\Source\Repos\aspnet-sign-in-with-apple\AspNet.Apple\AspNet.Apple.Web.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
 C:\Users\nichpin\Source\Repos\aspnet-sign-in-with-apple\AspNet.Apple\AspNet.Apple.Web.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\nichpin\Source\Repos\aspnet-sign-in-with-apple\AspNet.Apple\AspNet.Apple.Web.Mvc\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\nichpin\Source\Repos\aspnet-sign-in-with-apple\AspNet.Apple\AspNet.Apple.Web.Mvc\obj\Debug\netcoreapp3.1\AspNet.Apple.Web.Mvc.csprojAssemblyReference.cache
