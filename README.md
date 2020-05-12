@@ -1,6 +1,6 @@
 # Sign in with Apple using ASP.NET Core (MVC & Razor Pages)
 
-In 2019 Apple announced and released 'Sign in with Apple' at their Worldwide Developer Conference (WWDC).  'Sign in with Apple' is the fast, easy way for people to sign in to apps or websites using the Apple IDs they already have.  In doing so Apple joined many other OpenID and OAuth identity providers including Facebook, Google, Microsoft, Amazon and others.  Business and data platform Statista estimates that 20 percent of all smartphones sold worldwide in 2019 were an Apple iPhone.  Apple has consistently been Samsung’s closest competitor, maintaining the position of second most popular smartphone vendor in the world since 2012.  Providing authentication from external identity providers is of great value to your app or website as it simplifies access and increases usage.  With just a click or two, new users are able to sign in and begin using your app or website without creating a new username and password.  
+In 2019 Apple announced and released 'Sign in with Apple' (SIWA) at their Worldwide Developer Conference (WWDC).  'Sign in with Apple' is the fast, easy way for people to sign in to apps or websites using the Apple IDs they already have.  In doing so Apple joined many other OpenID and OAuth identity providers including Facebook, Google, Microsoft, Amazon and others.  Business and data platform Statista estimates that 20 percent of all smartphones sold worldwide in 2019 were an Apple iPhone.  Apple has consistently been Samsung’s closest competitor, maintaining the position of second most popular smartphone vendor in the world since 2012.  Providing authentication from external identity providers is of great value to your app or website as it simplifies access and increases usage.  With just a click or two, new users are able to sign in and begin using your app or website without creating a new username and password.  
 
 In this repository I have provided sample projects for implementing 'Sign in with Apple' using both ASP.NET Core MVC and Razor Pages.  
 
@@ -15,6 +15,17 @@ In this repository I have provided sample projects for implementing 'Sign in wit
 ![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-1.png "Sign In With Apple Button")
 ![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-2.png?v=1 "Sign In With Apple Consent")
 ![Sign In With Apple](https://mastorageacct.blob.core.windows.net/ma-host-prod-iamnickpinheiro-web/github/images/aspnet-sign-in-with-apple-3.png "Sign In With Apple Response")
+
+## Configuration
+In order to configure your web app to support 'Sign in with Apple' (SIWA) you must have an active Apple Developer Account
+https://developer.apple.com/account
+
+Once you have an active account you must create an App ID, Identifier and Service ID.  The following is the Apple documentation for undergoing this process:
+https://help.apple.com/developer-account/#/dev1b35d6f83
+
+Your 'Identitfier' will service as your client_id and you must enter a Domain and Return URL for your web app in the Web Authentication Configuration popup window of the 'Edit your Service Configuration' page of your Identifier in the Apple Developer portal.  The only two configuration values you need to enter here are in the appsettings.json file of each project:
+- ClientId
+- RedirectUri
 
 ## Live Demo Sites on Microsoft Azure 
 ASP.NET Core MVC  
